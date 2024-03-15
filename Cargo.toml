@@ -1,0 +1,10 @@
+[package]
+name = "swc-expr-simplifier-reprod"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+swc = "0.273.21"
+swc_core = { version = "0.90.22", features = ["ecma_plugin_transform", "common", "ecma_parser", "ecma_codegen", "ecma_transforms_optimization"] }
